@@ -19,9 +19,10 @@
                 <img src="imagens/logomarca.png"> <br>
                 <h1>Desvendando os Segredos da Escrita Persuasiva</h1>
                 <p>Aprenda a escrever com impacto e conquiste resultados incríveis. Torne-se um mestre e transforme sua comunicação em vendas!</p>
-                <form action="" method="">
-                    <input type="text" name="nome_digitado" placeholder="insira seu primeiro nome"><br>
-                    <input type="emal" name="email_digitado" placeholder="insira seu melhor email"><br>
+
+                <form action="inserir.php" method="post">
+                    <input type="text" name="nome_digitado" placeholder="insira seu primeiro nome" required><br>
+                    <input type="emal" name="email_digitado" placeholder="insira seu melhor email" required><br>
                     <button type="submit">QUERO ME INSCREVER AGORA!</button><br>
                     <img src="imagens/calendario2.png">
                     De 02 a 05 de MAIO às 20h | Online e Gratuito
@@ -59,14 +60,74 @@
         </div><!--fimada secao2-->
 
         <div id="secao3">
-             <img src="imagens/foto2.png">
+             <img id ="foto2" src="imagens/foto2.png">
              <div id="conteudo3">
                 <h1>Para quem este evento é obrigatorio</h1>
 
                 <div class="cartoes2">
-                    <div class="verificado"><img src="imagens/verificado.png"></div>
+                    <div class="verificado">
+                        <img id="icone_verificado" src="imagens/verificado.png">
+                </div>
                     <p>Empreendedores que desejam aumentar suas taxas de conversão e impulsionar suas vendas através de mensagens persuasivas.</p>
-        </div><!--fim da secao3-->
+        </div><!--fim do cartão2-->
+
+        <div class="cartoes2">
+                    <div class="verificado">
+                        <img id="icone_verificado" src="imagens/verificado.png">
+                </div>
+                    <p>Profissionais de marketing que buscam aprimorar suas habilidades de copywriting e criar campanhas mais impactantes e eficazes.</p>
+        </div><!--fim do cartão2-->
+
+        <div class="cartoes2">
+                    <div class="verificado">
+                        <img id="icone_verificado" src="imagens/verificado.png">
+                </div>
+                    <p>Estudantes e aspirantes a copywriters que desejam mergulhar no mundo da escrita persuasiva e aprender com um especialista renomado.</p>
+        </div><!--fim do cartão2-->
+
+        <div class="cartoes2">
+                    <div class="verificado">
+                        <img id="icone_verificado" src="imagens/verificado.png">
+                </div>
+                    <p>Proprietários de negócios online que desejam melhorar a comunicação com seu público-alvo e destacar-se em um mercado competitivo.</p>
+        </div><!--fim do cartão2-->
+
+        <div class="cartoes2">
+                    <div class="verificado">
+                        <img id="icone_verificado" src="imagens/verificado.png">
+                </div>
+                    <p>Freelancers e profissionais autônomos que desejam se destacar em suas áreas de atuação e atrair mais clientes através de suas habilidades de escrita persuasiva.</p>
+        </div><!--fim do cartão2-->
+       
+       
+
+      </div>
+    </div> <!--fim da secao 3-->
+
+    <div id="secao4">
+        <h1>conquiste resultados surpreendentes e eleve sua comunicação a um novo nível. Não deixe essa oportunidade escapar!</h1>
+        <p><img src="imagens/calendario.png"> <b>De 02 a 05</b> de MAIO às<strong> 20h </strong> | Online e Gratuito</p>
+        <form action="" method="">
+          <input type="text" name="nome_digitado" placeholder="insira seu primeiro nome"><br>
+         <input type="emal" name="email_digitado" placeholder="insira seu melhor email"><br>
+                    <button type="submit">Enviar</button><br>
+        </form>
+    </div><!--secao4-->
+    
+    <div id="secao5">
+        <div id="conteudo5">
+            <h1>Ana Valéria</h1>
+            <p>especialista em copywriting com mais de 10  anos de experiência, conhecida por sua habilidade em criar mensagens persuasivas que geram resultados. Ela já trabalhou com grandes marcas e empreendedores individuais, ajudando-os a impulsionar suas vendas e comunicações. </p>
+        </div>
+        <img id="foto3" src="imagens/foto3.png">
+    </div><!--fim da secao5-->
+
+    <div id="rodape"> 
+        <div>ANA VALÉRIA © TODOS OS DIREITOS RESERVADOS</div>
+        <div>POLÍTICA DE PRIVACIDADE - TERMOS DE USO</div>
+
+    </div> <!-- fim do rodape-->
+
     
 </body>
 </html>
